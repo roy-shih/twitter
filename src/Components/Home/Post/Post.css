@@ -100,15 +100,17 @@
   overflow: hidden;
 }
 
-.post .MuiLinearProgress-root {
-  display: none;
+.closePross {
+  display: none !important;
 }
 
-.post .ps {
-  display: block;
+.runPross {
+  display: block !important;
 }
 
-.button {
+
+
+/* .button {
   position: absolute;
   right: 17px;
   bottom: 8px;
@@ -123,7 +125,7 @@
   padding: 12px 28px;
   background: royalblue;
   color: #fff;
-}
+} */
 
 .react-emoji-picker--wrapper{
   top: 4rem;

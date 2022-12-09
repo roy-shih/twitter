@@ -12,10 +12,13 @@ function App() {
   return (
     <>
     {
-      user ? <div className="App">
-      <Sidebar />
-      <Home />
-      <Widgets />
+      user ? 
+      <div className="App">
+        <main className="bg-black min-h-screen flex max-w-[1500px] mx-auto">
+          <Sidebar />
+          <Home />
+          <Widgets />
+        </main>
      </div> : <Login />
     }
     </>
